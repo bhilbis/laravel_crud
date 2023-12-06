@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: rgb(70, 65, 65);
+    color: #ffffff;
+}
+
+nav {
+    color: black;
+}
+
+nav li {
+    margin-bottom: 10px;
+    color: rgb(0, 0, 255);
+}
+
+
+#header {
+    width: 100%;
+    height: 95vh;
+}
+.container {
+    padding: 10px 10%;
+}
+
+.header-text {
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+.header-text h1 {
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.header-text h1 span {
+    color: #e31b59;
+}
+
+/* HP */
+nav .fa-solid {
+    display: none;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+}
